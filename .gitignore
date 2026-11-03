@@ -1,0 +1,26 @@
+# Python
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Local databases and uploaded media
+*.sqlite3
+*.db
+backend/media/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+
+# Tool and OS files
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
